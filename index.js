@@ -321,7 +321,7 @@ export default class Carousel extends Component {
             height: size.height,
           },
         ]}
-        swipe={this.props.swipe}
+        scrollEnabled={this.props.swipe}
       >
         {pages}
       </ScrollView>);
